@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img/GYM.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.left{
+        
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 0px;
+        padding: 0px;
+        
+}
+
+.mid{
+        /*border: 3px solid red;*/
+        display: block;
+        margin: 20px auto ;
+        width: 40%;
+        
+}
+
+.right{
+        /*border: 3px solid yellow;*/
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+}
+
+.navbar li{
+    display: inline;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 24px 30px;
+    color: white;
+    font-size: 17px;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+div img{
+    width: 136px;
+    filter: invert(100%);
+}
+h5{
+    margin: 0px;
+    text-align: center;
+    font-size: 24px;
+    padding: 0px;
+}
+
+.btn{
+    margin: 2px 5px;
+    padding: 2px 11px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover{
+    background-color: rgb(119, 116, 116);
+}
+.btn:active{
+    background-color: white;
+    color: black;
+}
+.container{
+    
+    margin: 150px 142px;
+    padding: 2px 2px;
+    width: 392px;
+    text-align: center;
+    
+    display: block  ;
+}
+.forms input{
+    display: block;
+    margin: 9px auto;
+    text-align: center;
+    width: 212px;
+    border-radius: 10px;
+    background-color: rgb(7, 7, 6);
+    font-size: 15px;
+    color: white;
+}
+
